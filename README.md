@@ -28,6 +28,8 @@ This is designed to be a quick out of the box ELK stack that includes password p
 
 4. Add some data
 
-	```
+    ```
     TODO
     ```
+
+5. Visit `127.0.0.1:5602` with your browser, click past the warning ( only if self signing ), and login.
