@@ -33,3 +33,9 @@ This is designed to be a quick out of the box ELK stack that includes password p
     ```
 
 5. Visit `127.0.0.1:5602` with your browser, click past the warning ( only if self signing ), and login.
+
+## Details
+
+The setup is pretty simple with docker-compose. Elasticsearch has a volume mounted in the current directory
+named esdata that is used to store all of the data that elasticsearch imbibes. Kibana just connects to it, 
+and NGINX hosts a reverse proxy on port 5602 that proxies requests to kibana.
