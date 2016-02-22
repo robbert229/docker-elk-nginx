@@ -13,8 +13,10 @@ nginx:
   image: nginx
   ports:
     - "5602:443"
+    - "5603:444"
   links:
     - kibana
+    - elasticsearch
   volumes:
     - "$PWD/certificate.crt:/etc/nginx/ssl/certificate.crt"
     - "$PWD/certificate.key:/etc/nginx/ssl/certificate.key"
