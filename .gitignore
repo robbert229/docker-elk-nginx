@@ -1,0 +1,5 @@
+*.csr
+*.key
+*.crt
+esdata
+kibana.htpasswd
