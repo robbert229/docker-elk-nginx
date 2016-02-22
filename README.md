@@ -44,3 +44,5 @@ This is designed to be a quick out of the box ELK stack that includes password p
 The setup is pretty simple with docker-compose. Elasticsearch has a volume mounted in the current directory
 named esdata that is used to store all of the data that elasticsearch imbibes. Kibana just connects to it, 
 and NGINX hosts a reverse proxy on port 5602 that proxies requests to kibana. Elastic search is also on a reverse proxy behind port 5603. Both proxies are password protected and run on https.
+
+Also I know that it isn't really ELK. I don't like logstash due to its massive reqiurements so I avoid it like the plague.
