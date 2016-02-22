@@ -7,7 +7,8 @@ This is designed to be a quick out of the box ELK stack that includes password p
 
 1. Generate kibana.htpasswd
 
-	```
+    ```
+    sudo apt-get install apache2-utils 
     htpasswd -c ./kibana.htpasswd username
     ```
 
